@@ -1,0 +1,82 @@
+body{
+    background-color: aqua;
+    font-family:Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+}
+
+@media (min-width:1024px){
+    nav{
+        flex-direction:row;
+        gap:20px;
+    }
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+video {
+    width: 50%;
+    max-width:500px;
+    background-color: purple;
+    padding: 10px;
+}
+
+@media (max-width: 1024px) {
+    video {
+        width: 300px;
+    }
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    background-color:lightgray;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px; 
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.box {
+    background-color: rgb(226, 173, 230);
+    padding: 20px;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
