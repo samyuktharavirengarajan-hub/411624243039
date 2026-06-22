@@ -60,7 +60,8 @@
         <a href = "https://www.google.com" style="color:white;">Google</a><br><br>
         <form>
             <label>Name:</label>
-            <input type = "text" placeholder = "Enter your name"><br><br>
+            <input onchange = "example()" id = "input" type = "text" placeholder = "Enter your name"><br><br>
+            <p id = "inputField"></p>
             Age:
             <input type = "number" placeholder = "Enter your age"><br><br>
             Email:
@@ -77,13 +78,13 @@
                 <option>CSE</option>
                 <option>IT</option>
             </select><br><br>
-            <button>Submit</button>
+            <button onclick = "alert('clicked')">Submit</button>
         </form><br><br>
         <nav>
             <a href = "" style="color:white;">Home</a>
             <a href = "" style="color:white;">About</a>
             <a href = "" style="color:white;">Contact</a>
-        </nav>
+        </nav><br><br>
         <div class = "grid">
             <div id = "item1">1</div>
             <div id = "item2">2</div>   
@@ -93,4 +94,6 @@
             <div id = "item6">6</div>
         </div>
     </body>
+    <script src = "jsintro.js">
+    </script>
 </html>
