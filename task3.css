@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 40px;
+}
+h1 {
+    color: black;
+    margin-bottom: 25px;
+}
+input {
+    width: 300px;
+    padding: 12px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+input:focus {
+    border-color: green;
+}
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+#addBtn {
+    background-color: green;
+    color: white;
+}
+#addBtn:hover {
+    background-color: green;
+}
+#clearBtn {
+    background-color: red;
+    color: white;
+}
+#clearBtn:hover {
+    background-color: darkred;
+}
+#count {
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+}
+#status {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+#messageSection {
+    width: 60%;
+    margin: 25px auto;
+}
+#messageSection p {
+    background-color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-left: 5px solid green ;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px gray;
+}

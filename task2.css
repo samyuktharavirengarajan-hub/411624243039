@@ -1,7 +1,13 @@
 body{
     font-family: Arial, sans-serif;
+    background-color: lightslategray;
     text-align: center;
     padding: 20px;
+}
+
+h2{
+    font-family: Times New Roman, serif;
+    padding-bottom: 15px;
 }
 
 button{
