@@ -1,18 +1,18 @@
-import BGcolor from "./BGcolor";
-function App(){
-  return(
-    <BGcolor/>
-  )
-}
-export default App;
-
-// import Counter from './Counter';
-// function App() {
-//   return (
-//     <Counter/>
-//   );
+// import BGcolor from "./BGcolor";
+// function App(){
+//   return(
+//     <BGcolor/>
+//   )
 // }
 // export default App;
+
+import Counter from './Counter';
+function App() {
+  return (
+    <Counter/>
+  );
+}
+export default App;
 
 // const fruits = ["Apple", "Banana", "Mango"];
 // function App(){
