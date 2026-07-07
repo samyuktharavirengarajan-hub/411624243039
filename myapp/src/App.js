@@ -1,14 +1,62 @@
-import First23 from './First23.js';
-import Second23 from './Second23.js';
+import BGcolor from "./BGcolor";
 function App(){
   return(
-    <div>
-    <First23/>
-    <Second23/>
-    </div>
+    <BGcolor/>
   )
 }
 export default App;
+
+// import Counter from './Counter';
+// function App() {
+//   return (
+//     <Counter/>
+//   );
+// }
+// export default App;
+
+// const fruits = ["Apple", "Banana", "Mango"];
+// function App(){
+//   return(
+//     <div>
+//       {fruits.map((fruit) => {
+//           return <p>{fruit}</p>;
+//         })}
+//     </div>
+//   )
+// }
+// export default App;
+
+// import Page from './Pages/Page.js';
+// function App(){
+//   return(
+//     <div>
+//       <Page/>
+//     </div>
+//   )
+// }
+// export default App;
+
+// import Parent from './Parent.js';
+// function App(){
+//   return(
+//     <div>
+//       <Parent/>
+//     </div>
+//   )
+// }
+// export default App;
+
+// import First23 from './First23.js';
+// import Second23 from './Second23.js';
+// function App(){
+//   return(
+//     <div>
+//     <First23/>
+//     <Second23/>
+//     </div>
+//   )
+// }
+// export default App;
 
 // import logo from './logo.svg';
 // import './App.css';
