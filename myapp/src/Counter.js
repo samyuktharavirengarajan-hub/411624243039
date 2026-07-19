@@ -1,4 +1,4 @@
-// with usestate hook
+// with usestate useEffect hook 7/7/26
 import { useState , useEffect} from "react";
 
 export default function Counter() {

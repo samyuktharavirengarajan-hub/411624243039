@@ -1,3 +1,59 @@
+import MyCounter from './Counter';
+import NavBar from './NavBar';
+import {Add, Subtract, Multiply, Divide, NotFound} from './Math'
+import {Routes, Route} from 'react-router-dom'
+function App() {
+  return (
+      <>
+       <NavBar/>
+      <Routes>
+        <Route path = "/counter" element = {<MyCounter/>}/>
+        <Route path = "/add" element = {<Add/>}/>
+        <Route path = "/subtract" element = {<Subtract/>}/>
+        <Route path = "/multiply" element = {<Multiply/>}/>
+        <Route path = "/divide" element = {<Divide/>}/>
+        <Route path = "*" element = {<NotFound/>}/>
+      </Routes>
+      </>
+  );  
+}
+export default App;
+
+
+// import MyCounter from './Counter';
+// import {Add, Subtract, Multiply, Divide, NotFound} from './Math'
+// import {Routes, Route} from 'react-router-dom'
+// function App() {
+//   return (
+//       <>
+//       <Routes>
+//         <Route path = "/counter" element = {<MyCounter/>}/>
+//         <Route path = "/add" element = {<Add/>}/>
+//         <Route path = "/subtract" element = {<Subtract/>}/>
+//         <Route path = "/multiply" element = {<Multiply/>}/>
+//         <Route path = "/divide" element = {<Divide/>}/>
+//         <Route path = "*" element = {<NotFound/>}/>
+//       </Routes>
+//       </>
+//   );  
+// }
+// export default App;
+
+// import Counter from './Counter';
+// import {Add, Subtract, Multiply, Divide} from './Math'
+// function App() {
+//   return (
+//     <>
+//     <Counter/>
+//     <Add/>
+//     <Subtract/>
+//     <Multiply/>
+//     <Divide/>
+//     </>
+//   );
+// }
+// export default App;
+
 // import BGcolor from "./BGcolor";
 // function App(){
 //   return(
@@ -6,13 +62,13 @@
 // }
 // export default App;
 
-import Counter from './Counter';
-function App() {
-  return (
-    <Counter/>
-  );
-}
-export default App;
+// import Counter from './Counter';
+// function App() {
+//   return (
+//     <Counter/>
+//   );
+// }
+// export default App;
 
 // const fruits = ["Apple", "Banana", "Mango"];
 // function App(){
