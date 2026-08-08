@@ -11,4 +11,3 @@ A CRUD Notes/Tasks dashboard with:
 - FastAPI REST backend
 - MySQL database
 
-Setup instructions will be provided separately.
