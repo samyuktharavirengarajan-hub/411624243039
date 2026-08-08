@@ -10,4 +10,3 @@ A CRUD Notes/Tasks dashboard with:
 - Delete confirmation
 - FastAPI REST backend
 - MySQL database
-
